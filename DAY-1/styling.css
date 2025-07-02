@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.flex-item{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid black;
+    color: yellow;
+    
+}
+
+.flex-item:nth-child(4){
+    order: 1;
+    align-self: flex-end;
+}
+
+
