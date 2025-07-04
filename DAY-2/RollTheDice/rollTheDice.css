@@ -1,0 +1,103 @@
+body {
+    margin: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, rgb(232, 38, 38), rgb(134, 21, 209));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.playerone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    height: 400px;
+    width: 377px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(238, 169, 212);
+}
+
+.playertwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    height: 400px;
+    width: 376px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(235, 138, 190);
+}
+
+.playerone h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(62, 55, 55);
+}
+
+.playertwo h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(48, 44, 44);
+}
+
+.scoreone, .scoretwo {
+    color: #f9046a;
+    font-size: 50px;
+    margin-top: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.score-box {
+    position: relative;
+    margin-top: 20px;
+    background-color: #fb3386;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    color: white;
+    column-gap: 0cm;
+    border-radius: 5px;
+}
+
+.currone, .currtwo {
+    margin-top: 0px;
+    font-size: larger;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 180px;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+.new-game,.rolldice,.hold{
+    width: fit-content;
+    padding: 10px 10px;
+    border: solid 1px #fb3386 ;
+    border-radius: 30px;
+}
+.image {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(247, 43, 77);
+}

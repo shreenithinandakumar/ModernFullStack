@@ -8,17 +8,33 @@
     <script href="rollTheDice.js" async></script>
 </head>
 <body>
-    <button>NEW GAME</button>
-    <h2>PLAYER 1</h2>
-    <h2>PLAYER 2</h2>
-    <h3>0</h3>
-    <h3>0</h3>
-    <img src="" alt="">
-    <h4>CURRENT</h4>
-    <h4>0</h4>
-    <h4>CURRENT</h4>
-    <h4>0</h4>
-    <button>ROLL DICE</button>
-    <button>HOLD</button>
+    <div class="grid-container">
+        <div class="left"></div>
+        <div class="playerone">
+            <h2>PLAYER 1</h2>
+            <h3 class="scoreone">0</h3>
+            <div class="score-box">
+                <h4>CURRENT</h4>
+                <h4 class="currone">0</h4>
+            </div>
+        </div>
+        <div class="playertwo">
+            <h2>PLAYER 2</h2>
+            <h3 class="scoretwo">0</h3>
+            <div class="score-box">
+                <h4>CURRENT</h4>
+                <h4 class="currtwo">0</h4>
+            </div>     
+        </div>
+        <div class="right"></div>
+    </div>
+
+    <div class="buttons">
+        <button class="new-game">NEW GAME</button>
+        <img src="three.jpg" alt="three" class="image">
+        <button class="rolldice">ROLL DICE</button>
+        <button class="hold">HOLD</button>
+    </div>
+
 </body>
 </html>
